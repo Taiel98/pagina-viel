@@ -20,6 +20,7 @@ root.render(
           <Route path='SobreNosotros' element={<SobreNosotros/>}/>
           <Route path='Ministerios' element={<Ministerios/>}/>
           <Route path='PreguntasFrecuentes' element={<PreguntasFrecuentes/>}/>
+          <Route path='Contactanos' element={<Contactanos/>}/>
           <Route/>
         </Route>
       </Routes>
