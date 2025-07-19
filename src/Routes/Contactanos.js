@@ -4,7 +4,7 @@ function Contactanos(){
     return(
         <>
         <h1>Contactanos</h1>
-        <img src="/imagenes/contactanos.png"/>
+        <img src="/imagenes/contactanos.png" alt="imagen del interior"/>
         <h3>Te esperamos</h3>
         </>
     )
