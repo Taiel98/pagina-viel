@@ -1,4 +1,5 @@
 import React from "react";
+import ImgsobreNosotros from "../imagenes/ImgsobreNosotros.jpeg"
 
 function SobreNosotros(){
     return(
@@ -10,7 +11,7 @@ function SobreNosotros(){
         <h2>Sábado 20hs. Jóvenes</h2>
         <h2>Domingo 9hs. Cena del Señor</h2>
         <h2>Domingo 10:30hs. Escuela dominical</h2>
-        <img src="/imagenes/sobreNosotros.jpeg" alt="imagen de los miembros"/>
+        <img src={ImgsobreNosotros} alt="imagen de los miembros"/>
         </>
     )
 }
