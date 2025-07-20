@@ -63,3 +63,6 @@ nav{
 .enlace-externo:hover {
   text-decoration: underline;
 }
+imginterior{
+  width: 100%;
+}

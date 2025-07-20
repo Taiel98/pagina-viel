@@ -5,7 +5,7 @@ function Contactanos(){
     return(
         <>
         <div id="contactanos">
-            <img src={Imgcontactanos} alt="imagen del interior"/>
+            <img src={Imgcontactanos} alt="imagen del interior" id="imginterior"/>
             <br/>
             <a href="goo.gl/maps/baWAmm6tbiYZfnMA7" target="_blank" rel="noopener noreferrer" className="enlace-externo">
                 Viel 2052, CABA
