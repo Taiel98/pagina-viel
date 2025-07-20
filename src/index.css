@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mi-link {
+  color: #ffd9b3;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.mi-link.active {
+  color: red;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#imginicio{width: 60%; float: left;}
+#cuadrotexto{
+  width: 40%;float: right;
+  text-align: center;
+  background-color:  #264d00;
+  color: whitesmoke;
+  height: 693px;
+  padding: 150px;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+nav{
+  background-color: 
+
+	  #331100;
+}
+#reuniones{
+  float: left;
+  width: 50%;
+  background-color: #264d00;
+  color: whitesmoke;
+  text-align: center;
+  height: 610px;
+  padding: 100px;
+}
+#imgnosotros{
+  float: right;
+  width: 50%;
+}
+#contactanos{
+  text-align: center;
+}
+.enlace-externo {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.enlace-externo:hover {
+  text-decoration: underline;
+}
