@@ -6,7 +6,7 @@ function SobreNosotros(){
         <>
         <div className="container">
             <div className="row">
-                <div className="col">
+                <div className="col-md">
                     <div id="reuniones">
                         <h2>REUNIONES:</h2>
                         <h2>Miércoles 20hs. Reunion de oración</h2>
@@ -16,7 +16,7 @@ function SobreNosotros(){
                         <h2>Domingo 10:30hs. Escuela dominical</h2>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-lg">
                     <img src={ImgsobreNosotros} alt="imagen de los miembros" id="imgnosotros"/>
                 </div>
             </div>
