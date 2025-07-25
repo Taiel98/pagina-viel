@@ -11,6 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilos para hacer el footer pegajoso */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* El contenido principal crece para empujar el footer hacia abajo */
+main {
+  flex: 1;
+}
+
 .mi-link {
   color: #ffd9b3;
   text-decoration: none;
@@ -26,6 +45,7 @@ code {
 #imginicio{
   width: 100%;
   height: 100%;
+  display: block; /* Elimina espacios debajo de la imagen */
 }
 #cuadrotexto{
   width: 100%;
@@ -35,14 +55,25 @@ code {
   height: 100%;
   padding: 10%;
 }
+
+/* Eliminar espacios entre columnas en las páginas Inicio y Sobre Nosotros */
+.container .row {
+  margin: 0;
+}
+
+.container .row .col-lg,
+.container .row .col-md {
+  padding: 0;
+}
 footer{
   background-color: black;
   color: white;
+  margin-top: auto; /* Esto empuja el footer hacia abajo */
+  padding: 20px 0; /* Añade un poco de padding para que se vea mejor */
+  text-align: center;
 }
 nav{
-  background-color: 
-
-	  #331100;
+  background-color: #331100;
 }
 #reuniones{
   width: 100%;
@@ -55,6 +86,7 @@ nav{
 #imgnosotros{
   width: 100%;
   height: 100%;
+  display: block; /* Elimina espacios debajo de la imagen */
 }
 #contactanos{
   text-align: center;
