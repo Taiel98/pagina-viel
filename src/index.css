@@ -23,13 +23,17 @@ code {
   margin-left: 10px;
 }
 
-#imginicio{width: 100%;}
+#imginicio{
+  width: 100%;
+  height: 100%;
+}
 #cuadrotexto{
   width: 100%;
   text-align: center;
   background-color:  #264d00;
   color: whitesmoke;
   height: 100%;
+  padding: 10%;
 }
 footer{
   background-color: black;
@@ -45,11 +49,12 @@ nav{
   background-color: #264d00;
   color: whitesmoke;
   text-align: center;
-  height: 610px;
-  padding: 100px;
+  height: 100%;
+  padding: 10%;
 }
 #imgnosotros{
   width: 100%;
+  height: 100%;
 }
 #contactanos{
   text-align: center;

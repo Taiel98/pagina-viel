@@ -9,6 +9,13 @@ import SobreNosotros from './Routes/SobreNosotros';
 import Ministerios from './Routes/Ministerios';
 import PreguntasFrecuentes from './Routes/PreguntasFrecuentes';
 import Contactanos from './Routes/Contactanos';
+import ClubBiblico from './Routes/ClubBiblico';
+import Escuelita from './Routes/Escuelita';
+import HoritaFeliz from './Routes/HoritaFeliz';
+import Jovenes from './Routes/Jovenes';
+import ReunionDeHombres from './Routes/ReunionDeHombres';
+import ReunionFemenina from './Routes/ReunionFemenina';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +29,12 @@ root.render(
           <Route path='Ministerios' element={<Ministerios/>}/>
           <Route path='PreguntasFrecuentes' element={<PreguntasFrecuentes/>}/>
           <Route path='Contactanos' element={<Contactanos/>}/>
+          <Route path='ClubBiblico' element={<ClubBiblico/>}/>
+          <Route path='Escuelita' element={<Escuelita/>}/>
+          <Route path='HoritaFeliz' element={<HoritaFeliz/>}/>
+          <Route path='Jovenes' element={<Jovenes/>}/>
+          <Route path='ReunionHombres' element={<ReunionDeHombres/>}/>
+          <Route path='ReunionFemenina' element={<ReunionFemenina/>}/>
           <Route/>
         </Route>
       </Routes>
