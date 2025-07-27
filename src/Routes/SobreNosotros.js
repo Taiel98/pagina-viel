@@ -4,7 +4,7 @@ import ImgsobreNosotros from "../imagenes/ImgsobreNosotros.jpeg"
 function SobreNosotros(){
     return(
         <>
-        <div className="container">
+        <div className="container full-width-container">
             <div className="row">
                 <div className="col-md">
                     <div id="reuniones">

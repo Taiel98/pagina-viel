@@ -4,7 +4,7 @@ import Imginicio from "../imagenes/Imginicio.png"
 function Inicio(){
     return(
         <>
-        <div className="container">
+        <div className="container full-width-container">
             <div className="row">
                 <div className="col-lg">
                     <img src={Imginicio} alt="imagen de la fachada de la iglesia" id="imginicio"/>
