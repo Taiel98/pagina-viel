@@ -111,3 +111,52 @@ nav{
 #imginterior{
   width: 100%;
 }
+
+/* Estilos adicionales para el navbar responsivo */
+/* Agrega estos estilos a tu index.css existente */
+
+/* Asegurar que el navbar se vea bien en móviles */
+.navbar-toggler {
+    border: none;
+    padding: 4px 8px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Estilo para el menú colapsado en móviles */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #331100;
+        margin-top: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .nav-item {
+        margin: 5px 0;
+    }
+    
+    .mi-link {
+        display: block;
+        padding: 8px 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .mi-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Para pantallas grandes, mantener el estilo original */
+@media (min-width: 992px) {
+    .navbar-nav {
+        justify-content: flex-end;
+    }
+}
