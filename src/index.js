@@ -15,6 +15,12 @@ import HoritaFeliz from './Routes/HoritaFeliz';
 import Jovenes from './Routes/Jovenes';
 import ReunionDeHombres from './Routes/ReunionDeHombres';
 import ReunionFemenina from './Routes/ReunionFemenina';
+import Alabanza from './Routes/Alabanza';
+import Matrimonios from './Routes/Matrimonios';
+import Mayordomia from './Routes/Mayordomia';
+import ReunionOracion from './Routes/ReunionOracion';
+import ServicioDesayuno from './Routes/ServicioDesayuno';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,6 +41,11 @@ root.render(
           <Route path='Jovenes' element={<Jovenes/>}/>
           <Route path='ReunionHombres' element={<ReunionDeHombres/>}/>
           <Route path='ReunionFemenina' element={<ReunionFemenina/>}/>
+          <Route path='Alabanza' element={<Alabanza/>}/>
+          <Route path='Matrimonios' element={<Matrimonios/>}/>
+          <Route path='Mayordomia' element={<Mayordomia/>}/>
+          <Route path='ReunionOracion' element={<ReunionOracion/>}/>
+          <Route path='ServicioDesayuno' element={<ServicioDesayuno/>}/>
           <Route/>
         </Route>
       </Routes>

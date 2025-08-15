@@ -68,6 +68,56 @@ function Ministerios(){
                         </div>
                     </div>
                 </div>
+                <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Alabanza</h5>
+                            <p className="card-text">Siempre Presentes</p>
+                            <Link to="/Alabanza" className="btn btn-primary">Saber más</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Reunion de Matrimonios</h5>
+                            <p className="card-text">Fortalecer los matrimonios de la iglesia</p>
+                            <Link to="/Matrimonios" className="btn btn-primary">Saber más</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Mayordomia</h5>
+                            <p className="card-text">Mantenimiento de la iglesia</p>
+                            <Link to="/Mayordomia" className="btn btn-primary">Saber más</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Reunion de Oracion</h5>
+                            <p className="card-text">Todos los miercoles a las 20:00</p>
+                            <Link to="/Escuelita" className="btn btn-primary">Saber más</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Cocina</h5>
+                            <p className="card-text">Siempre Presentes</p>
+                            <Link to="/Escuelita" className="btn btn-primary">Saber más</Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         </>
